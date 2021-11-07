@@ -7,8 +7,9 @@
   color: aliceblue;
   padding: 1em;
   margin-top: 0.5em;
-  border: 1.5px solid oldlace;
+  border: 1.8px solid oldlace;
   border-radius: 20px;
+  font-size: 1.6em;
 }
 
 /* Ripple effect */
