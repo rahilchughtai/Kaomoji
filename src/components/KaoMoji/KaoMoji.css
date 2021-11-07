@@ -1,23 +1,33 @@
-
-.parent{
-    margin-left: 30px;
-    margin-right: 30px;
-}
 .wrapper {
   list-style: none;
-  margin: auto;
-  padding: 0px;
 }
 
 .child {
-  font-size: 1.5em;
-  margin-top: 5px;
-  padding: .3em;
+  background-color: black;
+  color: aliceblue;
+  padding: 1em;
+  margin-top: 0.5em;
   border: 1.5px solid oldlace;
   border-radius: 20px;
 }
 
+/* Ripple effect */
+.child {
+  background-position: center;
+  transition: background 0.4s;
+}
 .child:hover {
-  background-color: #61dafb83;
-  cursor: pointer;
+  background: #0058a0 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000%;
+}
+.child:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* Button style */
+.child {
+  box-shadow: 0 0 4px #999;
+  outline: none;
 }

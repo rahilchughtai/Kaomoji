@@ -6,3 +6,11 @@ h3 {
 h3 {
   color: #61dafb;
 }
+
+.sub-heading {
+  margin-bottom: 1.3em;
+}
+
+.checkBoxField {
+  margin-bottom: 1em;
+}

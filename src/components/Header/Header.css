@@ -1,4 +1,9 @@
+
+.header{
+    margin-bottom: 3em;
+}
+
 h1{
-    margin: 1em;
+    margin-top: 1em;
     font-size: 3em;
 }

@@ -4,6 +4,9 @@ import Snackbar from '@mui/material/Snackbar';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import MuiAlert from '@mui/material/Alert';
+import TouchRipple from '@material-ui/core/ButtonBase/TouchRipple';
+import { Button } from '@material-ui/core';
+
 
 export const KaoMoji = (props) => {
     const [open, setOpen] = React.useState(false);
@@ -45,13 +48,15 @@ export const KaoMoji = (props) => {
 
 
     const listItems = props.entries.map((entry, index) =>
-        <div className='child col-4' key={index} onClick={() => handleKaomojiClick(entry.emoticon)}>
+        <div variant="contained" className='child col-4' key={index} onClick={() => handleKaomojiClick(entry.emoticon)}>
             {entry.emoticon}
         </div>
     )
 
     return (
         <div>
+
+
             <Snackbar
 
                 open={open}
@@ -68,9 +73,17 @@ export const KaoMoji = (props) => {
                 </Alert>
             </Snackbar>
 
+
+<TouchRipple>
+    <div>
+        <p>
+            Hello there
+        </p>
+    </div>
+</TouchRipple>
             <div className="parent">
                 <div className="wrapper container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         {listItems}
                     </div>
                 </div>
