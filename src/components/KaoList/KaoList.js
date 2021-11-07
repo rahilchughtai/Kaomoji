@@ -26,8 +26,8 @@ export const KaoList = () => {
     };
 
     return (
-        <div>
-            <h2 className="sub-heading"> Select the Kaomojis you would like to display!</h2>
+        <div className="KaoListWrapper">
+            <h2 className="sub-heading"> Pick your Kaomji Categories </h2>
             <div className="container">
                 <FormControl component="fieldset">
                     <FormGroup className="row justify-content-center" aria-label="position" row>
