@@ -4,9 +4,9 @@
   "background_color": "#282c34",
   "display": "standalone",
   "scope": "/",
-  "name": "Kaonoji Getter",
+  "name": "Kaomoji Getter",
   "short_name": "KaomojiGetter",
-  "description": "Get your favorite Kaomojis and share them with friends",
+  "description": "Find cute Kaomojis and share them with friends",
   "icons": [
     {
       "src": "/icon-192x192.png",
