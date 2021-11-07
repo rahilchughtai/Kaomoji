@@ -7,16 +7,6 @@ function App() {
     <div className="App">
       <Header></Header>
       <KaoList></KaoList>
-
-      {/*    <AppBar className="bg-dark" position="fixed" sx={{ top: 'auto', bottom: 0 }}>
-        <Container maxWidth="md">
-          <Toolbar styles={{ textAlign: 'center' }}>
-            Rahil Chughtai
-          </Toolbar>
-        </Container>
-      </AppBar>*/}
-
-
     </div>
   );
 }

@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header" style={{ textAlign: 'center' }} >
             <h1>KaomojiGetter (⌒‿⌒)</h1>
             <p> Copy your favorite Kaomojis and send them to your friends!</p>
-            <p>Project by Rahil Chughtai</p>
+            <p>Developed by Rahil</p>
         </div>
     )
 }
