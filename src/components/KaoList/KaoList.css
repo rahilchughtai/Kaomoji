@@ -3,8 +3,10 @@ h3 {
   text-align: center;
 }
 
-h3 {
+.item-heading {
   color: #61dafb;
+  font-size: 2em;
+  padding: .8em;
 }
 
 .sub-heading {

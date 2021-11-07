@@ -56,7 +56,7 @@ export const KaoList = () => {
                         (KaoItem) => {
                             return (
                                 <div className="mb-4" key={KaoItem.name}>
-                                    <h3>{KaoItem.name}</h3>
+                                    <h2 className="item-heading" style={{fontWeight:'bold'}} >{KaoItem.name}</h2>
                                     <KaoMoji entries={KaoItem.entries} ></KaoMoji>
                                 </div>
 
