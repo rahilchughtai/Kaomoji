@@ -30,13 +30,13 @@ export const KaoList = () => {
             <h2 className="sub-heading"> Pick your Kaomji Categories </h2>
             <div className="container">
                 <FormControl component="fieldset">
-                    <FormGroup className="row justify-content-center" aria-label="position" row>
+                    <FormGroup className="row justify-content-center mb-3" aria-label="position" row>
                         {
                             KaoMojiCategories.map(
                                 (category, index) => {
                                     return (
                                         <FormControlLabel
-                                            className="checkBoxField col-1 mb-1"
+                                            className="checkBoxField col-2 mb-1"
                                             key={index}
                                             value={category}
                                             control={<Checkbox size="medium" onChange={handleCheckboxEvent} />}
@@ -55,7 +55,7 @@ export const KaoList = () => {
                     UsedKaomojiItems.map(
                         (KaoItem) => {
                             return (
-                                <div key={KaoItem.name}>
+                                <div className="mb-4" key={KaoItem.name}>
                                     <h3>{KaoItem.name}</h3>
                                     <KaoMoji entries={KaoItem.entries} ></KaoMoji>
                                 </div>
