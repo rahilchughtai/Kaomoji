@@ -5,7 +5,6 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import MuiAlert from '@mui/material/Alert';
 import TouchRipple from '@material-ui/core/ButtonBase/TouchRipple';
-import { Button } from '@material-ui/core';
 
 
 export const KaoMoji = (props) => {

@@ -2,23 +2,11 @@ import React from 'react'
 import { KAOMOJIS } from '../../assets/kao'
 import { KaoMoji } from '../KaoMoji/KaoMoji'
 import './KaoList.css'
-import { styled } from '@mui/material/styles';
 import Checkbox from '@mui/material/Checkbox';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
-import FormLabel from '@mui/material/FormLabel';
-import { CheckOutlined } from '@material-ui/icons';
-
-
-const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
-const ListItem = styled('li')(({ theme }) => ({
-    margin: theme.spacing(0.5),
-}));
-
 const KaoMojiCategories = KAOMOJIS.map((item) => item.name)
-
-
 
 export const KaoList = () => {
     // Keeps track of which items the user has checked!
