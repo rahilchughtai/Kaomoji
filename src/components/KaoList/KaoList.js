@@ -15,9 +15,7 @@ export const KaoList = () => {
     const UsedKaomojiItems = KAOMOJIS.filter((item) => checked.includes(item.name))
 
     const handleCheckboxEvent = (event) => {
-        console.log(KaoMojiCategories)
         if (event.target.checked) {
-            console.log("Add item...")
             setChecked([...checked, event.target.value])
             return
         }
@@ -56,7 +54,7 @@ export const KaoList = () => {
                         (KaoItem) => {
                             return (
                                 <div className="mb-4" key={KaoItem.name}>
-                                    <h2 className="item-heading" style={{fontWeight:'bold'}} >{KaoItem.name}</h2>
+                                    <h2 className="item-heading" style={{ fontWeight: 'bold' }} >{KaoItem.name}</h2>
                                     <KaoMoji entries={KaoItem.entries} ></KaoMoji>
                                 </div>
 
