@@ -1,4 +1,4 @@
-export const KAOMOJIS=[
+export const KAOMOJIS = [
   {
     "name": "Angry",
     "entries": [
@@ -7920,5 +7920,223 @@ export const KAOMOJIS=[
         "description": "Sad"
       }
     ]
+  }, {
+    "name": "Sheep",
+    "entries": [
+      {
+        "emoticon": "Ꮚ･ꈊ･Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": " ᏊᏠꈊᏠᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊᎾꈊᎾᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊᎣꈊᎣᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": " Ꮚ・ꈊ・Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ౪ꈊ౪Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ´ꈊ｀Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": " ᏊˊꈊˋᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊᵕꈊᵕᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊᵒꈊᵒᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊºꈊºᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ≗ꈊ≗Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ˃ꈊºัᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊºัꈊºัᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊꏿꈊꏿᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊⓛꈊⓛᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊΦ ꈊ ΦᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊʻัꈊʻัᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ･ꈊ･✿Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊꆤꈊꆤᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": " Ꮚ♡ꈊ♡Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ♥ꈊ♥Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ☆ꈊ☆Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ✪ꈊ✪Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ｡ꈊ｡Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮗ･Ꮂ･Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏇˊᎲˋ✿Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏇᏡꈊᏡᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ･Ꮑ･Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ･ω･Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊㅇꈊㅇᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ξ๑ˊ ꈊˋ๑Ҙ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚꆤل͜ꆤᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚºัل͜ºัᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚᵕل͜ᵕᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ=ꈊ=Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "꒰(͏ˊ•ꈊ•ˋ)꒱",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "꒰(͏ˊ･Ꮂ･ˋ)꒱",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "꒰(͏ʻัꈊʻั)꒱",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊᵕꈊᵕᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": " Ꮚ◡ꈊ◡Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": " Ꮚ˘ ꈊ ˘ Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ˘̴ ꈊ ˘̴ Ꮚᶻᶻᶻᶻ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": " Ꮚ-ꈊ-Ꮚ 𝕫𝕫𝕫𝕫",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ_ꈊ_Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "✩ᏊꈍꈊꈍᏊ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ˶◡ꈊ◡˶Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ◡ꈊ◡Ꮚ ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ≚ꈊ≚Ꮚ ƶƵ ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "ᏊᵋꈊᵋᏊ ˢⁿᵒʳᵉ~♪ ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ´•̥̥̥ ‸ •̥̥̥Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚᵕ̣̣̣̣̣ ہ ᵕ̣̣̣̣̣̣ Ꮚ",
+        "description": "Sheep"
+      },
+      {
+        "emoticon": "Ꮚ ᵒ̴̶̷̥ ‸ ᵒ̴̶̷̣̥ Ꮚ",
+        "description": "Sheep"
+      }
+
+    ]
   }
+
 ]
