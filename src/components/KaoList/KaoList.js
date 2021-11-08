@@ -9,19 +9,22 @@ import FormControl from '@mui/material/FormControl';
 const KaoMojiCategories = KAOMOJIS.map((item) => item.name)
 
 export const KaoList = () => {
-    // Keeps track of which items the user has checked!
-    const [checked, setChecked] = React.useState([]);
 
+    const [checked, setChecked] = React.useState([]);
     const UsedKaomojiItems = KAOMOJIS.filter((item) => checked.includes(item.name))
 
-    const handleCheckboxEvent = (event) => {
-        if (event.target.checked) {
-            setChecked([...checked, event.target.value])
-            return
-        }
-        setChecked(checked.filter((value) => value !== event.target.value))
+    const addToArray = (value) => setChecked([...checked, value])
 
+    const removeFromArray = (eventValue) => {
+        setChecked(checked.filter((value) => value !== eventValue))
+    }
+
+    const handleCheckboxEvent = (event) => {
+        const { checked, value } = event.target
+        return checked ? addToArray(value) : removeFromArray(value)
     };
+
+
 
     return (
         <div className="KaoListWrapper">

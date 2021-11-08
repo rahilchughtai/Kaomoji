@@ -4,7 +4,6 @@ import Snackbar from '@mui/material/Snackbar';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import MuiAlert from '@mui/material/Alert';
-import TouchRipple from '@material-ui/core/ButtonBase/TouchRipple';
 
 
 export const KaoMoji = (props) => {
@@ -54,16 +53,12 @@ export const KaoMoji = (props) => {
 
     return (
         <div>
-
-
             <Snackbar
-
                 open={open}
                 autoHideDuration={1500}
                 onClose={handleClose}
                 action={action}
                 anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
-
             >
                 <Alert
                     style={{ fontSize: '1.3em' }}
@@ -72,14 +67,6 @@ export const KaoMoji = (props) => {
                 </Alert>
             </Snackbar>
 
-
-<TouchRipple>
-    <div>
-        <p>
-            Hello there
-        </p>
-    </div>
-</TouchRipple>
             <div className="parent">
                 <div className="wrapper container">
                     <div className="row justify-content-center">
