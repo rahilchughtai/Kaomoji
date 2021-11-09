@@ -15,6 +15,16 @@ export const KaoList = () => {
 
     const addToArray = (value) => setChecked([...checked, value])
 
+
+    const resetArray = () => {
+        setChecked([])
+    }
+
+    const fillArray = () => {
+        const fullArray = KaoMojiCategories.map((category) => category)
+        setChecked(fullArray)
+    }
+
     const removeFromArray = (eventValue) => {
         setChecked(checked.filter((value) => value !== eventValue))
     }
@@ -39,6 +49,7 @@ export const KaoList = () => {
                                         <FormControlLabel
                                             className="checkBoxField col-2 mb-1"
                                             key={index}
+                                            checked={checked.includes(category)}
                                             value={category}
                                             control={<Checkbox size="medium" onChange={handleCheckboxEvent} />}
                                             label={category}
@@ -51,6 +62,15 @@ export const KaoList = () => {
                     </FormGroup>
                 </FormControl>
             </div>
+
+            <button onClick={resetArray} style={{ width: '25vw' }} className="mx-2 btn btn-dark"  >
+                Uncheck All
+            </button>
+
+            <button onClick={fillArray} style={{ width: '25vw' }} className="mx-2 btn btn-light"  >
+                Check All
+            </button>
+
             <div>
                 {
                     UsedKaomojiItems.map(
