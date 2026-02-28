@@ -8,6 +8,7 @@ const Header = () => {
             <h1>KaomojiGetter (⌒‿⌒)</h1>
             <p> Copy your favorite Kaomojis and send them to your friends!</p>
             <p> This project is open-source. Made by Ray. </p>
+            <p> Tomie <3 </p>
         </div>
     )
 }
